@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4 # similar to a ansible module
 
       - name: Sync upstream changes
-        uses: aormsby/Fork-Sync-With-Upstream-action@3.4.1 # similar to a ansible module
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1 # similar to a ansible module
         with:
           target_sync_branch: main
           upstream_repository: https://github.com/yuriongit/forex-trading-bot.git # use target repository here
