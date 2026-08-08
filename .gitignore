@@ -3,6 +3,5 @@
 # Ignore files
 #
 # ---------------------------
-git-branches.md
-git-tips.md
-refresh_repo.sh
+tips/
+bash/
